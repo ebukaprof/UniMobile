@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail090"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/list_image_lecturer"
+            android:layout_width="100dip"
+            android:layout_height="120dip"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nameOfLecturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail090"
+        android:layout_toRightOf="@+id/thumbnail090"
+        android:text="Rihanna Love the way lie"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/emailo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameOfLecturer"
+        android:textColor="#ff050034"
+        android:textSize="12dip"
+        android:layout_marginTop="9dip"
+        android:layout_toRightOf="@+id/thumbnail090"
+        android:text="Just gona stand there and ..." />
+
+    <!-- Rightend Duration Designation-->
+
+    <TextView
+        android:id="@+id/phoneNumo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailo"
+        android:textColor="#ff050034"
+        android:textSize="12dip"
+        android:layout_marginTop="9dip"
+        android:layout_toRightOf="@+id/thumbnail090"
+        android:text="Just gona stand there and ..." />
+
+    <TextView
+        android:id="@+id/designation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneNumo"
+        android:textColor="#ff050034"
+        android:textSize="12dip"
+        android:layout_marginTop="9dip"
+        android:layout_toRightOf="@+id/thumbnail090"
+        android:text="Just gona stand there and ..." />
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/designation"
+        android:textColor="#ff050034"
+        android:textSize="12dip"
+        android:layout_marginTop="9dip"
+        android:layout_toRightOf="@+id/thumbnail090"
+        android:text="Just gona stand there and ..." />
+
+    </RelativeLayout>

@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">UniportMobile</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Uniport" > UniPort </string>
+    <string name="cancel">Cancel</string>
+    <string name="signin">Sign In</string>
+    <string name="login">Login</string>
+    <string name="username">Matriculation No</string>
+    <string name="password">password</string>
+    <string name="cardNum">Card No</string>
+    <string name="cardPin">Card Pin</string>
+    <string name="pay">Pay School fees</string>
+    <string name="Email">Email</string>
+    <string name="cardName">Name on Card</string>
+    <string name="payFees"> Pay Fees </string>
+    <string name="Home"> University Of Portharcourt </string>
+    <string name="uniNews"> Uni News </string>
+    <string name="campusTour"> Campus Tour </string>
+    <string name="college">College And Faculties </string>
+    <string name="applied">Select Department </string>
+    <string name="studentService">Student Services </string>
+    <string name="Donald">Donald E. U. Ekong Library</string>
+    <string name="Events">All Up Coming Events</string>
+    <string name="directory">University Directory</string>
+    <string name="calendar"> <b>Please Select Semester</b></string>
+    <string name="firrstcalendar">FIRST SEMESTER </string>
+    <string name="secondcalendar">SECOND SEMESTER</string>
+
+    <!-- FIRST SEMESTER  -->
+
+    <string name="firstSemester"> <u> FIRST SEMESTER, 2014-2015 SESSION  </u></string>
+    <string name="Firstdate">  <b> <u>Sunday, 22nd February, 2015 </u></b>  \n\n First Year Students Arrive\n\n\n
+ <b> <u>Monday, 23rdFebruary, 2015–Friday, 13th March,2015</u></b>\n\n
+Registration of First Year Students\n\n\n
+<b><u>Sunday, 1st March, 2015</u></b>\n\n
+Returning Students Arrive\n\n
+<b><u>Monday, 2nd March, 2015 – Friday, 13th March, 2015</u></b>\n\n
+  Registration for Returning Students \n\n\n
+<b><u>Monday, 2nd March, 2015 – Friday, 15th May, 2015</u></b>\n\n
+
+    \u2022 Lectures Begin for all Students \n
+    \u2022 Late Registration for all Students (End of Registration)\n
+    \u2022 Orientation Ceremony – 26th March, 2015\n
+    \u2022 Matriculation – 14th April, 2015\n
+    \u2022 Convocation – 13th June, 2015\n
+    \u2022 Easter Break2nd– 6th April, 2015\n
+    \u2022 Lectures Resume7th April, 2015\n
+    \u2022 End of Lectures – 15th May, 2015\n\n
+
+<b><u>Monday, 18thMay, 2015 – Friday, 22ndMay, 2015</u></b>\n\n
+Revision\n\n\n
+<b><u>Monday, 25thMay,  - Friday 12th June, 2015</u></b>\n\n
+First Semester Examinations\n\n\n
+<b><u>Monday, 15th June, 2015 – Friday, 19th June, 2015</u></b> \n\n
+First Semester Break \n\n\n
+
+</string>
+
+
+    <string name="secondSemester"> <u> SECOND SEMESTER, 2014-2015 SESSION </u></string>
+<string name="secondDate">
+        <b><u>Lectures begin - Monday, 22nd June, 2015</u></b>\n\n
+<b>Wednesday, 1st July, 2015</b>\n\n
+Extra-Ordinary Meeting of Senate to consider First Semester 2014/2015 Results.\n\n\n
+
+<b><u>Monday, 5th January, 2015 – Friday, 23rd January, 2015</u> </b>\n\n
+Lectures Continue\n\n\n
+
+<b><u>Monday, 26th January, 2015 – Friday, 30th January, 2015 </u></b> \n\n
+
+Revision\n\n\n
+
+<b><u>Monday, 2nd February, 2015 – 6th February, 2015</u></b>\n\n
+
+Student Union Week: Cultural Activity/Professional Exhibitions\n\n\n
+
+<b><u>Tuesday, 10th February, 2015 – Tuesday, 24th February, 2015</u></b>\n\n
+Second Semester Examinations\n\n\n
+
+<b><u>Wednesday , 25th February, - Friday, 27th February, 2015</u></b>\n\n
+
+Vacation
+</string>
+
+    <string name="AboutUniport"> Welcome To UNIQUE UNIPORT </string>
+    <string name="AboutUniportDetails">
+         The University of Port Harcourt offers Students and Scholars a unique experience that is evident in our quality research, teaching and community service which sets us apart from other Universities in Nigeria.
+
+Our students are trained to engage in critical thinking that is central to proffering practical solutions to societal problems. Our expertise is widely-acknowledged in such specializations as Medicine, Social Sciences, Science, Education, Humanities and Engineering.\n\n\n
+
+The Curricula are tailored in such a way that students embrace interdisciplinary approach to knowledge acquisition right from their first day on our Campus.\n\n
+
+We are truly a global University with a competitive local edge. Staff and students from every part of the country and beyond teach and study in an ideal setting that is characterized by sensitivity to cultural diversity and respect for individual and group differences.
+
+In Unique UNIPORT, the force and power of quality liberal education in all branches of learning gives us global relevance and a competitive local edge in the Nigerian University system.\n\n
+
+Here, we train students who develop the ‘can-do’ spirit in line with our Motto: Enlightenment for Self-Reliance. Come and experience the Unique UNIPORT education. If you desire quality education that would prepare you for lifelong learning, this is the place to be.
+
+A unique experience awaits you here. Welcome.\n\n
+
+<b><u>By:  Joseph A. Ajienka</u></b>\n
+
+<b><u>Vice-Chancellor</u></b>\n\n
+
+
+    </string>
+
+    <string name="VissSion"> VISION | MISSION | PHILOSOPHY  </string>
+
+    <string name="VissSionDetails">
+         <b><u>OUR VISION</u></b>\n\n
+The University of Port Harcourt aims to be ranked amongst the best universities in Africa, renowned for its teaching, research, creativity and innovation.\n\n\n
+
+<b><u>OUR MISSION</u></b>\n\n
+The Mission of the University of Port Harcourt is the pursuit of academic excellence, advancement of knowledge and community service through quality teaching, life-long learning, social inclusion, strengthening civil society and policy-relevant research that addresses the challenges of contemporary society. To achieve this Mission, the University is guided by the spirit of enquiry, self-reliance, fairness, ethical and professional standards of the disciplines.\n\n\n
+
+<b><u>PHILOSOPHY</u></b>\n\n
+The Philosophy of the University of Port Harcourt is: commitment to academic freedom, tolerance, probity, equal opportunity and respect for cultural diversity.\n\n\n
+
+
+    </string>
+
+    <string name="AnthemSchool">
+
+   On the green low lands and swampy planes
+Of the new Calabar Rivers stand
+The University of Port Harcourt
+A citadel of learning and excellent education
+A home of academic enthusiasts,
+Searching, searching for knowledge and wisdom. \n\n
+
+Enlightenment and self-reliance, our mission,
+Our hope in the future is rooted in God alone;
+The vision of our father shining in the stars,
+Opportunities, unlimited and equal,
+Our progenies citizens of the universe
+From far and near, the pride of Uniport echoes.\n\n
+
+<i><u>Refrain:</u></i>\n\n
+Unique, Unique, Unique Uniport
+Unique, Unique, Unique Uniport\n\n\n
+
+
+<b><u>THE UNIVERSITY CREST</u></b>\n\n
+\u2022 A national flag above: symbolizing the national character of the institution\n
+\u2022A rising sun in yellow and an open book below the sun: symbolizing enlightenment\n
+\u2022 Deep blue underneath the open book, representing the colour of the university\n
+\u2022 A traditional boat with a helms man sailing on a light blue sea depicting self-reliance\n
+
+
+    </string>
+
+
+    <!-- news string-->
+
+    <string name="newsItem1">Children Art workshop and Exhibition and the Theme is The Expression </string>
+
+    <string name="aboutLib"><b><u>Vision and Mission</u></b>\n\n Books required for loan should be taken from the shelves and presented with the reader’s library access card to the library staff at the Circulation Desk on the ground floor. \n\n\n
+            <b><u>Borrowing Books</u></b> \n\n Books required for loan should be taken from the shelves and presented with the reader’s library access card to the library staff at the Circulation Desk on the ground floor.\n\n\n
+           <b><u>OPAC and IPortal</u></b> \n\n The online public access catalogue replaces the card catalogue which is the main searching tool for the university’s library collection.
+    </string>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uniport.www.uniportmobile" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Splash screen -->
+        <activity
+            android:name="com.uniport.www.uniportmobile.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/Home" >
+
+        </activity>
+
+        <activity android:name=".Fees"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/payFees"/>
+
+
+
+        <activity android:name=".Directory"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/directory"/>
+
+        <activity android:name=".AppliedScience"
+            android:parentActivityName=".CollegesFaculties"
+            android:label="@string/applied"/>
+
+        <activity android:name=".FalcultyOfEngineering"
+            android:parentActivityName=".CollegesFaculties"
+            android:label="@string/applied"/>
+
+        <activity android:name=".HealthScience"
+            android:parentActivityName=".CollegesFaculties"
+            android:label="@string/applied"/>
+
+        <activity android:name=".FacultyAgriculture"
+            android:parentActivityName=".CollegesFaculties"
+            android:label="@string/applied"/>
+
+        <activity android:name=".FacultyEducation"
+            android:parentActivityName=".CollegesFaculties"
+            android:label="@string/applied"/>
+
+        <activity android:name=".FacultyHumanities"
+            android:parentActivityName=".CollegesFaculties"
+            android:label="@string/applied"/>
+
+        <activity android:name=".FacultyManagement"
+            android:parentActivityName=".CollegesFaculties"
+            android:label="@string/applied"/>
+
+        <activity android:name=".SocialScience"
+            android:parentActivityName=".CollegesFaculties"
+            android:label="@string/applied"/>
+
+        <activity android:name=".Events"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/Events"/>
+
+        <activity android:name=".CollegesFaculties"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/college"/>
+
+
+
+        <activity android:name=".AboutUni"
+            android:parentActivityName=".MainActivity"
+            android:label="About Us"/>
+
+        <activity android:name=".Administration"
+            android:parentActivityName=".AboutUni"
+            android:label="Administration"/>
+
+        <activity android:name=".HistoryOfUni"
+            android:parentActivityName=".AboutUni"
+            android:label="History Of Uni Port"/>
+
+        <activity android:name=".Achievements"
+            android:parentActivityName=".AboutUni"
+            android:label="Achievements Of UniPort"/>
+
+        <activity android:name=".CampusLife"
+        android:parentActivityName=".AboutUni"
+        android:label="Campus Life"/>
+
+        <activity android:name=".SchoolsInstitute"
+            android:parentActivityName=".AboutUni"
+            android:label="Schools And Institute"/>
+
+        <activity android:name=".Centers"
+            android:parentActivityName=".AboutUni"
+            android:label="Centers"/>
+
+        <activity android:name=".CodeOfConduct"
+            android:parentActivityName=".AboutUni"
+            android:label="Code Of Conduct"/>
+
+        <activity android:name=".OfPortHarcourt"
+            android:parentActivityName=".HistoryOfUni"
+            android:label="History Of Uniport"/>
+
+        <activity android:name=".Mission"
+            android:parentActivityName=".HistoryOfUni"
+            android:label="Mission And Vision"/>
+
+        <activity android:name=".Anthem"
+            android:parentActivityName=".HistoryOfUni"
+            android:label=" School Anthem"/>
+
+        <activity android:name=".CampusTour"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/campusTour"/>
+
+        <activity android:name=".UniNews"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/uniNews"/>
+
+        <activity android:name=".StudentServices"
+        android:parentActivityName=".MainActivity"
+        android:label="@string/studentService"/>
+
+        <activity android:name=".AcademicCalendar"
+            android:parentActivityName=".StudentServices"
+            android:label="@string/calendar"/>
+        <activity android:name=".FirstSemester"
+            android:parentActivityName=".AcademicCalendar"
+            android:label="@string/firrstcalendar"/>
+
+        <activity android:name=".SecondSemester"
+            android:parentActivityName=".AcademicCalendar"
+            android:label="@string/secondcalendar"/>
+
+
+
+        <activity android:name=".Library"
+            android:parentActivityName=".StudentServices"
+            android:label="Library"/>
+
+        <activity android:name=".LibraryDetails"
+            android:parentActivityName=".Library"
+            android:label="@string/Donald"/>
+
+        <activity android:name=".Login"
+            android:label="@string/app_name"/>
+
+
+    </application>
+
+</manifest>

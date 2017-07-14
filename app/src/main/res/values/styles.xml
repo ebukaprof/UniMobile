@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+
+
+    <style name="label">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+
+    <style name="tbox">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:paddingLeft"> 5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="bg">
+
+        <item name="android:background">#003</item>
+    </style>
+
+
+
+    <style name="wh">
+
+        <item name="android:background">#ECF0F1</item>
+    </style>
+
+
+    <style name="mbtn">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+
+        <item name="android:textColor">#fff</item>
+
+
+    </style>
+
+
+</resources>

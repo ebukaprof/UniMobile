@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    style="@style/bg">
+
+
+    <RelativeLayout
+        android:layout_width ="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+
+
+
+        <!-- Login Form -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity ="center"
+
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/linearLayout">
+
+
+            <!--   welcome text -->
+
+            <TextView android:id="@+id/Welcome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/signin"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textStyle ="bold"
+
+                android:textColor="#ffffff"/>
+
+            <!--  Email Label -->
+            <TextView
+                style="@style/label"
+                android:id="@+id/matt"
+                android:text="@string/username"/>
+
+            <EditText
+                style="@style/tbox"
+
+                android:hint="@string/username"
+                android:id ="@+id/username"
+                android:singleLine="true"/>
+
+
+            <!--  Password Label -->
+            <TextView
+                style="@style/label"
+                android:id="@+id/mattlb"
+                android:text="@string/password"/>
+
+            <EditText
+                android:singleLine="true"
+                android:hint="@string/password"
+                android:id ="@+id/password"
+                style="@style/tbox"
+
+                android:inputType="textPassword"/>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                >
+
+
+                <Button
+                    style="@style/mbtn"
+                    android:background="#cc0000"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/buttonCancel"
+                    android:text="@string/cancel"
+                    android:layout_weight="50"
+
+
+                   />
+
+                <Button
+                    style="@style/mbtn"
+                    android:text="@string/login"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/buttonLogin"
+                    android:background="#336"
+                    android:layout_weight="50"
+
+                     />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
